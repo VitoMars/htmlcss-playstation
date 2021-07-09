@@ -8,17 +8,49 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.sticky-sony {
-  position: sticky;
+.nav-black-sony {
   display: flex;
   align-items: center;
   justify-content: end;
   background-color: black;
 }
 
-.sticky-sony img {
+.nav-black-sony img {
   height: 35px;
   width: 75px;
   margin: 0px 10px;
   cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0070d1;
+}
+
+.navbar-dark .navbar-toggler {
+  background-color: black;
+  filter: invert(1);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  ul button {
+    margin: 0px 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .search {
+    margin: 10px 0px;
+  }
 }
