@@ -43,6 +43,31 @@ body {
   cursor: pointer;
 }
 
+.banner {
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center top;
+}
+
+.text-area {
+  height: 550px;
+  width: 550px;
+  padding-top: 20vh;
+  padding-left: 5vw;
+}
+
+.text-area img {
+  height: 50px;
+  width: 150px;
+}
+
+.main-text {
+  font-size: 40px;
+}
+
+.banner > img {
+  width: 100%;
+}
+
 @media (min-width: 992px) {
   ul button {
     margin: 0px 25px;
@@ -52,5 +77,11 @@ body {
 @media (max-width: 992px) {
   .search {
     margin: 10px 0px;
+  }
+}
+
+@media (max-width: 560px) {
+  .text-area {
+    max-width: 320px;
   }
 }
