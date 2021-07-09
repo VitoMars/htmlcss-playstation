@@ -56,8 +56,8 @@ body {
 }
 
 .text-area img {
-  height: 50px;
-  width: 150px;
+  height: 40px;
+  width: 200px;
 }
 
 .main-text {
@@ -91,7 +91,7 @@ body {
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 575px) {
   .text-area {
     max-width: 320px;
   }
