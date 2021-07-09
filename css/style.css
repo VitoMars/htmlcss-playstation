@@ -46,6 +46,13 @@ body {
 .banner {
   background-image: url(../img/jumbo-bg.png);
   background-position: center top;
+  height: 600px;
+}
+
+.banner2 {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  height: 800px;
 }
 
 .text-area {
