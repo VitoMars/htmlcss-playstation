@@ -62,9 +62,12 @@ body {
   padding-left: 5vw;
 }
 
-.text-area img {
+.returnal {
   height: 40px;
-  width: 200px;
+}
+
+.it-takes-two {
+  height: 200px;
 }
 
 .main-text {
