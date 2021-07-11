@@ -127,6 +127,28 @@ body {
   width: 150px !important;
 } */
 
+footer {
+  background-color: #00439c;
+}
+
+#region {
+  width: 20px;
+  margin: 5px;
+}
+
+#logo {
+  width: 100px;
+}
+
+#sie {
+  width: 150px;
+}
+
+.par {
+  max-width: 600px;
+  font-size: 14px;
+}
+
 @media (min-width: 992px) {
   ul button {
     margin: 0px 25px;
