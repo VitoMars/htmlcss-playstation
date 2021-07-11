@@ -110,6 +110,10 @@ body {
   background-color: #bebcbb;
 }
 
+.bg-blue {
+  background-color: #0d1532;
+}
+
 .logo-plus img {
   height: 100px;
 }
