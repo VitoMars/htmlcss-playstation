@@ -105,6 +105,18 @@ body {
   border-bottom: 2px solid #0d6efd;
 }
 
+.bg-sepia {
+  background-color: #bebcbb;
+}
+
+.logo-plus img {
+  height: 100px;
+}
+
+.mini-banner img {
+  height: 500px;
+}
+
 @media (min-width: 992px) {
   ul button {
     margin: 0px 25px;
@@ -114,6 +126,10 @@ body {
 @media (max-width: 992px) {
   .search {
     margin: 10px 0px;
+  }
+
+  .mini-banner img {
+    display: none;
   }
 }
 
