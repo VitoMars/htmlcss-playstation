@@ -122,6 +122,11 @@ body {
   height: 500px;
 }
 
+/* .social {
+  height: 150px;
+  width: 150px !important;
+} */
+
 @media (min-width: 992px) {
   ul button {
     margin: 0px 25px;
