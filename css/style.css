@@ -11,7 +11,7 @@ body {
 .nav-black-sony {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   background-color: black;
 }
 
@@ -84,6 +84,11 @@ body {
   padding: 3px;
 }
 
+.select {
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
 .select:hover {
   border: 2px solid #0d6efd;
   border-radius: 20px;
@@ -91,7 +96,8 @@ body {
 
 .opacity {
   opacity: 0.6;
-  border-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
 
 .opacity:hover {
