@@ -45,6 +45,7 @@ body {
 
 .banner {
   background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
   background-position: center top;
   height: 600px;
 }
@@ -72,10 +73,6 @@ body {
 
 .main-text {
   font-size: 40px;
-}
-
-.banner > img {
-  width: 100%;
 }
 
 .img img {
@@ -160,7 +157,7 @@ li {
 }
 
 .links-footer {
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 @media (min-width: 992px) {
