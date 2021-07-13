@@ -36,6 +36,14 @@ body {
   filter: invert(1);
 }
 
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-item img {
+  height: 70px;
+}
+
 .search {
   display: flex;
   align-items: center;
