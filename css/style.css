@@ -155,10 +155,16 @@ ul {
 li {
   list-style: none;
   margin: 5px;
+  cursor: pointer;
 }
 
 .links-footer {
   justify-content: center;
+}
+
+.info {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media (min-width: 992px) {
