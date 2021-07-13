@@ -36,6 +36,14 @@ body {
   filter: invert(1);
 }
 
+/* .dropdown-menu {
+  transition: all 2s ease-in-out !important;
+} */
+
+.dropdown-menu.show {
+  transition: all 2s ease-in-out 1s !important;
+}
+
 .dropdown-menu {
   width: 100%;
 }
